@@ -5,12 +5,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CanvasSaverService } from './canvas-saver.service';
-import { CanvasSaverComponent } from './canvas-saver/canvas-saver.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    CanvasSaverComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
